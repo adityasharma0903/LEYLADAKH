@@ -1,0 +1,29 @@
+.background::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(Nubra-valley.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+p{
+    color: white;
+    margin-right: 5pc;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: black;
+    font-size: larger;
+}
+
+h1{
+    font-size: 50px;
+    color: orange;
+    font-style: bold;
+}
+
